@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_orange_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp">
+        <ImageView
+            android:id="@+id/clean_acc_detail_group_left_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:id="@+id/clean_acc_detail_group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/clean_acc_detail_group_left_icon"
+            android:text="后台软件" />
+
+        <TextView
+            android:id="@+id/clean_acc_detail_group_rubbish_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/clean_acc_detail_group_check_box"
+            android:text="147M" />
+
+        <ImageView
+            android:id="@+id/clean_acc_detail_group_check_box"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ac_check_box_1" />
+    </RelativeLayout>
+
+</RelativeLayout>

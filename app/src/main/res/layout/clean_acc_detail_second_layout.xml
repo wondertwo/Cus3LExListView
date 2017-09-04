@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:paddingLeft="28dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/clean_acc_detail_child_left_icon"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/holo_blue_dark" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/clean_acc_detail_child_left_icon"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/clean_acc_detail_child_app_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="酷我音乐盒子" />
+
+            <TextView
+                android:id="@+id/clean_acc_detail_child_suggest_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="建议清理" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/clean_acc_detail_child_rubbish_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/clean_acc_detail_child_check_box"
+            android:text="1.47M" />
+
+        <ImageView
+            android:id="@+id/clean_acc_detail_child_check_box"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ac_check_box_1" />
+
+        <ImageView
+            android:id="@+id/clean_acc_detail_child_right_icon"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ac_child_click_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>
